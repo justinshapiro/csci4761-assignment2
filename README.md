@@ -27,7 +27,7 @@ This application meets all of the requirements posted in the instructions. Howev
 	
 1. After executing both the client and server on CSEGRID, on the client you are prompted to type in the hostname of the server. This is the name you found in step 4 of the run instructions.
 	
-- For example: "Enter the hostname of the app server: ucdencsecnode05"
+	- For example: "Enter the hostname of the app server: ucdencsecnode05"
 2. If you typed the hostname correctly and it is the correct hostname of the computer where the server program is running, you will be taken to a portal where you can log in, create an account, or quit
 	
 3. The program is NOT preloaded with any usernames, so you will have to create an account using option 2 first
