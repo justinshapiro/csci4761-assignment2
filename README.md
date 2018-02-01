@@ -11,15 +11,15 @@ Calender @ CSEGRID
 	
 4. Take note of the hostname of the server window. The hostname should be something like ucdencsecnode0[1-5]. This hostname will be used by the client to establish connection
 	
-5. In the client session window, navigate to the "client" directory (i.e. "cd path_to_client")
+5. In the client session window, navigate to the "client" directory (i.e. "`cd path_to_client`")
 	
-6. Type "make" to compile client.cpp
+6. Type "make" to compile `client.cpp`
 	
-7. Do the same for the server: navigate to its directory in the server session window and type "make" to compile server.cpp
+7. Do the same for the server: navigate to its directory in the server session window and type "`make`" to compile `server.cpp`
 	
-8. Run the server application by typing ./server
+8. Run the server application by typing `./server`
 	
-9. Run the client application by typing ./client
+9. Run the client application by typing `./client`
 	
 ### How to use:
 
@@ -43,11 +43,11 @@ This application meets all of the requirements posted in the instructions. Howev
 Notes 
 ---------
 
-- This is an application with two components that run independently of each other: client.cpp and server.cpp. "make" must be typed twice on two different machines to compile two different applications which happen to communicate with each other over TCP sockets
+- This is an application with two components that run independently of each other: `client.cpp` and `server.cpp`. "`make`" must be typed twice on two different machines to compile two different applications which happen to communicate with each other over TCP sockets
 
-- Calender.cpp defines a Calender object that manages the database file and helps manage appointments and accounts. Calender.cpp assists server.cpp and therefore should only be on the server computer.
+- Calender.cpp defines a `Calender` object that manages the database file and helps manage appointments and accounts. `Calender.cpp` assists server.cpp and therefore should only be on the server computer.
 
-- client.cpp knows absolutely nothing about Calender.cpp, it is simply a program that contains forms for the user to enter data and parses this data into a format accepted by the server
+- client.cpp knows absolutely nothing about `Calender.cpp`, it is simply a program that contains forms for the user to enter data and parses this data into a format accepted by the server
 
 - The database file always exists on the server, so once an account has been created an populated with appointments, that account will be accessible on subsequent runs even after terminating the client server program
 
